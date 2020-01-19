@@ -64,3 +64,138 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+body {
+	max-width: 1000px;
+	margin-left: 4%;
+	margin-right: 4%;
+	margin-top: 0px;
+	margin-bottom: 250px;
+}
+
+a {
+	text-decoration: none;
+	
+}
+
+.navigation {
+	
+	box-sizing: 100%;
+	margin: 1%;
+	padding-bottom: 10%;
+	
+}
+
+.navigation .nav {
+	box-sizing: 80%;
+	float: left;
+	vertical-align: ;
+}
+.navigation a {
+	padding-right: 50px;
+	
+	color: grey;
+	font-weight: bold;
+	
+}
+.logo {
+	box-sizing: 20%;
+	float: right;
+}
+
+.heading {
+	box-sizing: 45%;
+	float: left;
+	padding-top: 30px;
+	padding-bottom: 30px;
+	margin: 80px;
+	display: inline-block;	
+}
+
+.innovate {
+	font-weight: bold;
+	vertical-align: top;
+	box-sizing: 60px;
+	font-size: 75px;
+	letter-spacing: 2px;
+	font-family: 'Bangers', cursive;
+	text-align: center;
+}
+.button1 {
+	display: inline-block;
+	text-align: center;
+	vertical-align: middle;
+	border: 1px solid black;
+	shadow: 1px, 1px, 4px, black;
+	font-size: 15px;
+	font-weight: none;
+	width: 200px;
+	height: 40px;
+	padding-top: 10px;
+	font-family: 'Titillium Web', sans-serif;
+
+}
+hr {
+	width: 100%;
+}
+
+.header-img {
+	
+}
+h2 {
+	text-align: center;
+}
+.over {
+	width: 900px;
+	text-align: left;
+	display: inline-block;
+
+	overflow: hidden;
+
+	
+}
+.over1 {
+	
+	float: left;
+	;
+	
+}
+.over2 {
+	
+	
+	
+	overflow: hidden;
+	
+	float: right;
+
+}
+.middle-img {
+	padding-top: 50px;
+	padding-bottom: 50px;
+	align: center;
+}
+
+.under {
+	box-sizing: 20%;
+	text-align: left;
+}
+
+.address {
+	Margin-top: 30px;
+}
+
+.address h2 {
+	text-align: left;
+	text-weight: bold;
+}
+
+.address a{
+	
+	text-decoration: none;
+	color: black;
+
+}
+
+footer {
+	text-align: center;
+	font-weight: bold;
+}
