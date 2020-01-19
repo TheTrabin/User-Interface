@@ -175,8 +175,18 @@ h2 {
 }
 
 .under {
-	box-sizing: 20%;
+
 	text-align: left;
+}
+.under1{
+float: left;
+}
+
+.under2 {
+float: center;
+}
+.under3 {
+	float:right;
 }
 
 .address {
