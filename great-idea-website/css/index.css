@@ -81,102 +81,117 @@ a {
 	
 	box-sizing: 100%;
 	margin: 1%;
-	padding-bottom: 10%;
-	
 }
 
-.navigation .nav {
-	box-sizing: 80%;
-	float: left;
-	
-}
 .navigation a {
-	padding-right: 50px;
-	
-	color: grey;
+	display: inline-block;
+	width: 12%;
+	line-height: 40px;
+	color: silver;
 	font-weight: bold;
-	
+	min-height: 40px;
 }
+
 .logo {
 	box-sizing: 20%;
 	float: right;
 }
 
 .heading {
-
-	margin: 1%;
-    width: 100%;	
-}
-
-.innovate {
-	font-weight: bold;
-	vertical-align: top;
-	
-	font-size: 75px;
-	letter-spacing: 2px;
-	font-family: 'Bangers', cursive;
-	text-align: center;
 	display: inline-block;
-    vertical-align: top;
-    margin: 1%;
-    min-height: 18%;
-	width: 10%;
+	margin: 1%;
+	width: 90%;
+	padding-top: 12px;
+	padding-bottom: 20px;
+	
+}
+.left {
+	display: inline-block;
+	padding: 1%;
+	margin: 1%;
+	width: 55%;
+	height: 100%;
+	
+}
+.innovate {
+	text-align: center;
+	vertical-align: top;
+	font-size: 70px;
+	letter-spacing: 1px;
+	font-family: 'Bangers', cursive;
+	display: inline-block;
+	margin: 1%;
+	padding: 5%;
+    min-height: 20%;
+	width: 100%;
+	
 }
 .button1 {
-
-	text-align: center;
-	vertical-align: middle;
+	font-family: 'Titillium Web', sans-serif;
+	display: inline-block;
 	border: 1px solid black;
 	font-size: 15px;
 	font-weight: none;
-	width: 200px;
-	height: 40px;
+	margin-left: 29%;
+	width: 44%;
+	height: 30px;
 	padding-top: 10px;
-	font-family: 'Titillium Web', sans-serif;
-
+	text-align: center;
+	line-height: 10px;
+	
 }
-hr {
-	width: 100%;
-}
-
 .header-img {
-	display: inline-block;
-    vertical-align: top;
-
-    min-height: 18%;
-	width: 30%;
+	vertical-align: top;	
+	min-height: 100px;
+	float: right;
+    margin: 1%;
+	width: 38%;
 }
+
+hr {
+	margin: 2%;
+	width: 97%;
+}
+h2 {
+	font-style: italic;
+	letter-spacing: 1px;
+}
+
 
 .over {
-	margin: 4%;
+	margin: 1%;
     width: 100%;
 	
 }
 .over1 {
-
-	display: inline-block;
+	
+	
     vertical-align: top;
     margin: 1%;
     min-height: 18%;
-	width: 40%;
-	
+	width: 48%;
+	float:left;
 }
 
 .over2 {
-	display: inline-block;
+	
+	
     vertical-align: top;
     margin: 1%;
     min-height: 18%;
-    width: 40%;
+	width: 48%;
+	float: right;
 }
 
 .middle-img {
-	padding-top: 50px;
-	padding-bottom: 50px;
-	vertical-align: text-bottom;
+	
+	margin: 1%;
+	width: 100%;
+	padding: 1%;
 }
 
 .under {
+	
 	margin: 1%;
     width: 100%;
 }
@@ -206,7 +221,9 @@ hr {
 }
 
 .address {
+	margin: 2%;
 	Margin-top: 30px;
+	
 }
 
 .address h2 {
@@ -222,6 +239,6 @@ hr {
 }
 
 footer {
+	padding: 5%;
 	text-align: center;
-	font-weight: bold;
 }
