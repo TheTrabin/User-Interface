@@ -77,34 +77,82 @@ a {
 	
 }
 
+
+
+@keyframes pulse {
+  0% {
+    background-image: linear-gradient(to right,lightblue, blue, blue, blue, blue  )
+  }
+  20% {
+    background-image: linear-gradient(to right, blue , lightblue, blue, blue, blue)
+  }
+  50%{
+    background-image: linear-gradient(to right, blue , blue, lightblue, blue,  blue)
+  }
+  70%{
+    background-image: linear-gradient(to right, blue , blue, blue, lightblue,  blue)
+  }
+    100% {
+    background-image: linear-gradient(to right, blue, blue, blue, blue,  lightblue)
+}
+}
+.sticky {
+
+top:0;
+width: 100%;
+}
+
 .navigation {
-	
+    position: fixed;
 	box-sizing: 100%;
 	margin: 1%;
+	background-image: linear-gradient(to right, blue , lightblue);
+    height: 40px;
+    top: 0;
+    z-index: 0;
+    width: 46%;
 }
 
 .navigation a {
-	display: inline-block;
-	width: 12%;
-	line-height: 40px;
+    display: inline-block;
+	width: 10%;
+	line-height: 30px;
 	color: silver;
 	font-weight: bold;
-	min-height: 20px;
+	min-height: 40px;
+}
+.navigation a:hover {
+    animation: pulse 0.3s infinite;
 }
 
 .logo {
+    z-index: 2;
+  
+    top: 0;
 	box-sizing: 20%;
 	float: right;
 }
 
 .heading {
-	display: inline-block;
+  	display: inline-block;
 	margin: 1%;
 	width: 100%;
-	padding-top: 12px;
+	padding-top: 70px;
 	padding-bottom: 20px;
 	
 }
+.heading2 {
+    background-image: url(../img/css.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+	display: inline-block;
+	margin: 1%;
+	width: 100%;
+	padding-top: 70px;
+	padding-bottom: 20px;
+	
+}
+
 .left {
 	display: inline-block;
 	padding: 1%;
@@ -114,11 +162,26 @@ a {
 	
 }
 .innovate {
+    
 	text-align: center;
 	vertical-align: top;
 	font-size: 70px;
 	letter-spacing: 1px;
-	font-family: 'Bangers', cursive;
+	font-family: 'Bowlby One SC', cursive;
+	display: inline-block;
+	margin: 1%;
+	padding: 5%;
+    min-height: 20%;
+	width: 100%;
+	
+}
+.services {
+    color: lightblue;
+	text-align: center;
+	vertical-align: top;
+	font-size: 70px;
+	letter-spacing: 1px;
+	font-family: 'Bowlby One SC', cursive;
 	display: inline-block;
 	margin: 1%;
 	padding: 5%;
